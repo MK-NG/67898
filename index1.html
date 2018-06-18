@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PMR - Admin Page</title>
+<link rel="stylesheet" type="text/css" href="./stylesheets/stylesheet.css">
+</head>
+
+<header>
+        <div class="wrapper">
+                   <div class="box a">
+                       <img class ="top_logo" src="./images/coa.png" alt="logo">
+                   </div> <!-- end box a -->
+                   <div class="box b">
+                       <div class="hero">
+                           Department<br/> 
+                           for <br/>
+                           Transport
+                       </div> <!-- End hero -->
+                       
+                   </div> <!-- End box b -->
+                   <div class="box c">
+                        
+                           <h1> PMR - Admin Page</h1>     
+                           
+                   </div> <!-- end box c --> 
+                   
+                        
+        </div> <!--End Wrapper -->
+   
+   </header>
+
+<body>
+    <div id="content">
+        <h2>
+            Administrator Options
+        </h2>
+        <h3>
+            Change Account Settings
+        </h3>
+
+
+  <table class="table">
+    <caption class="User Options"></caption>
+    
+		<thead>
+			<tr>  <!-- Header -->
+        <th>Account</th>
+				<th>Privileges</th>
+				
+        
+			</tr>  <!-- Header End -->
+    </thead>
+    
+		<tbody>
+      <tr> <!-- Row One -->
+        <td>Test User 1</td>
+            <td>
+              Active:
+              <select> 
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+            </td>
+              
+      </tr>  <!-- End Row One -->
+
+      <tr>  <!-- Row Two -->
+        <td></td> <!-- Blank -->
+            <td>
+              Locked:
+              <select> 
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+          </td>
+      </tr> <!-- End Row Two -->
+
+      <tr>  <!-- Row Three -->
+        <td></td>
+            <td>Log in Attempts:
+                 <input type="number" name="loginattempts" value="">
+              </td>
+      </tr> <!-- End Row Three -->
+
+      <tr>  <!-- Row Four -->
+        <td></td>
+            <td> Auto Log Out:
+                <select> 
+                  <option value="1">Yes</option>
+                  <option value="2">No</option>
+                </select>
+              </td>
+      </tr> <!-- End Row Four -->
+           
+      <tr>  <!-- Row Five -->
+        <td></td>
+            <td> Idle Time (Seconds):
+                    <input type="number" name="loginattempts" value=""> 
+              </td>
+      </tr> <!-- End Row Five -->
+            
+      <tr>  <!-- Row Six -->
+        <td></td>
+        <td> Audit Control:
+            <select> 
+              <option value="1">Yes</option>
+              <option value="2">No</option>
+            </select>
+          </td>
+      </tr> <!-- End Row Six -->
+		</tbody>
+	</table>
+
+         
+
+         
+</br>
+
+<button class="button" name="save"> <a href="#">Save Changes</a></button>
+
+               
+    </div> <!-- End content div -->
+   
+    <footer>
+  
+
+    </footer>
+
+    
+</body>
+
+</html>
